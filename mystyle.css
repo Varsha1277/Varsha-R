@@ -1,0 +1,292 @@
+body {
+  margin-top: 0px;
+  position: relative;
+  background-image: url("bg1.jpg");
+  background-position:80% 1%;
+  background-repeat: no-repeat;
+  background-size: 40%;
+  background-color:black;
+}
+
+.top-icons{
+
+
+}
+.icon-bar-left{
+  width: 90px;
+  position: relative;
+}
+.icon-bar-left a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 16px;
+}
+
+.icon-bar {
+  width: 5%;
+  position: relative;
+  left: 1200px;
+
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 16px;
+}
+.icon-bar a:hover {
+  border: 2px solid #00cccc;
+
+}
+.icon-bar-bleft {
+  width: 5%;
+  position: fixed;
+  top: 100px;
+  left: 1190px;
+}
+
+.icon-bar-bleft a {
+  display: block;
+  text-align: center;
+  border-radius: 50%;
+  padding: 15px 0;
+  color: white;
+  font-size: 20px;
+}
+.icon-bar-bleft a:hover {
+  border: 5px solid #00cccc;
+  background-color: white;
+}
+.icon-bar-bright {
+  width: 50%;
+  overflow: auto;
+  position: relative;
+  left: 110px;
+  top:120px;
+}
+
+.icon-bar-bright a {
+float: left;
+width: 10%;
+  border-radius: 50%;
+  text-align: center;
+  padding: 11px 0;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+.icon-bar-bright a:hover {
+  border: 1px dotted #00cccc;
+}
+.iconres {
+
+position: relative;
+bottom: 90px;
+left: 1100px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: var(--transition);
+  margin-top: 50px;
+}
+
+.iconres a {
+float: left;
+text-align: center;
+  padding: 11px 0;
+  font-style: bold;
+  border: 1px solid #00cccc;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  color: #00cccc;
+  font-size: 20px;
+  border-radius: var(--border-radius);
+  padding: 1.25rem 1.75rem;
+  font-size: var(--fz-sm);
+  font-family: var(--font-mono);
+  line-height: 1;
+}
+
+.iconres a:hover {
+ background-color: rgba(255, 255, 255, 0.2);
+}
+.icon {
+
+position: relative;
+top: 150px;
+left: 130px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: var(--transition);
+  margin-top: 50px;
+}
+
+.icon a {
+float: left;
+text-align: center;
+  padding: 11px 0;
+  font-style: bold;
+  border: 1px solid #00cccc;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  color: #00cccc;
+  font-size: 20px;
+  border-radius: var(--border-radius);
+  padding: 1.25rem 1.75rem;
+  font-size: var(--fz-sm);
+  font-family: var(--font-mono);
+  line-height: 1;
+}
+
+.icon a:hover {
+ background-color: rgba(255, 255, 255, 0.2);
+}
+.active {
+}
+
+.word{
+  font-family: 'Limelight', cursive;
+  color: white;
+  font-size: 40px;
+  position: relative;
+  left: 0px;
+  top: 100px;
+}
+.word1{
+  font-size: 18px;
+  font-family: 'Playfair Display', serif;
+}
+.hrline{
+  width: 80%;
+  color: #00cccc;
+  background-color: #00cccc;
+  position: relative;
+  top: 170px;
+  font-style: bold;
+}
+.hrline1{
+  width: 30%;
+  background-color: #00cccc;
+  position: relative;
+  top: 465px;
+  right:80px;
+  font-style: bold;
+}
+.hrline2{
+  width: 30%;
+  color: #00cccc;
+  background-color: #00cccc;
+  position: relative;
+  top: 770px;
+  left: 150px;
+  font-style: bold;
+}
+.hrline3{
+  width: 30%;
+  color: #00cccc;
+  background-color: #00cccc;
+  position: relative;
+  top: 1270px;
+  left: 250px;
+  font-style: bold;
+}
+.circle-icon {
+    background-color: black;
+    opacity: 0.9;
+    border: 0.5px solid white;
+    padding:8px;
+    border-radius: 50%;
+}
+.aboutpara{
+  position: relative;
+top: 400px;
+
+  font-size: 20px;
+  color: white;
+}
+.verticalLine {
+  width: 2px; /* Line width */
+      background-color: #00cccc; /* Line color */
+     min-height: 400px;/* Override in-line if you want specific height. */
+      float: left;
+  position: fixed;
+  top: 400px;
+  left: 1220px;
+
+}
+.about-word{
+  color: white;
+  font-size: 40px;
+  font-style: bold;
+  position: relative;
+  top: 500px;
+  font-family: 'Quicksand', sans-serif;
+  color: #00cccc;
+}
+.aboutpara{
+  align: right;
+  padding: 10px;
+  font-size: 20px;
+  font-family: 'Source Sans Pro', sans-serif;
+  position: relative;
+  top: 550px;
+  left: 150px;
+}
+img{
+  float: right;
+}
+.para-next{
+padding: 10px;
+position: relative;
+top: 20px;
+
+}
+.project-word{
+  font-size: 40px;
+  font-style: bold;
+  position: relative;
+  left: 150px;
+  top: 800px;
+  font-family: 'Quicksand', sans-serif;
+  color: #00cccc;
+}
+.img-pro1{
+  position: relative;
+  top: 850px;
+  right: 500px;
+  background-color: #00cccc;
+}
+.project-exp{
+  font-size: 19px;
+  color: white;
+  align-items: center;
+  width: 450px;
+  background-color: #112240;
+  position: relative;
+
+  font-family: 'Source Sans Pro', sans-serif;
+  top: 1120px;
+  left: 600px;
+  border: 1px solid white;
+}
+.Contact-word{  font-size: 40px;
+  font-style: bold;
+  position: relative;
+  left: 150px;
+  top: 1300px;
+  font-family: 'Quicksand', sans-serif;
+  color: #00cccc;}
+.contact-para{
+  font-size: 29px;
+  color: white;
+position: relative;
+  font-family: 'Source Sans Pro', sans-serif;
+  top: 1320px;
+  left: 200px;
+}
